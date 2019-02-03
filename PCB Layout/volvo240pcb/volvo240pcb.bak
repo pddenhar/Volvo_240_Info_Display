@@ -566,4 +566,10 @@ Wire Wire Line
 Wire Wire Line
 	4700 2750 4350 2750
 Connection ~ 4350 2750
+Wire Wire Line
+	2800 1350 3700 1350
+Wire Wire Line
+	3700 1350 3700 1150
+Wire Wire Line
+	3700 1150 4750 1150
 $EndSCHEMATC

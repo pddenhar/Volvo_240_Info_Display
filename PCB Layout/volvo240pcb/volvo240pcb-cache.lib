@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector:Conn_01x06_Male
+# Connector_Conn_01x06_Male
 #
-DEF Connector:Conn_01x06_Male J 0 40 Y N 1 F N
+DEF Connector_Conn_01x06_Male J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "Connector:Conn_01x06_Male" 0 -400 50 H V C CNN
+F1 "Connector_Conn_01x06_Male" 0 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -33,11 +33,11 @@ X Pin_6 6 200 -300 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic:Conn_01x04
+# Connector_Generic_Conn_01x04
 #
-DEF Connector_Generic:Conn_01x04 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x04 J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Generic:Conn_01x04" 0 -300 50 H V C CNN
+F1 "Connector_Generic_Conn_01x04" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -56,11 +56,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic:Conn_02x03_Odd_Even
+# Connector_Generic_Conn_02x03_Odd_Even
 #
-DEF Connector_Generic:Conn_02x03_Odd_Even J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_02x03_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 200 50 H V C CNN
-F1 "Connector_Generic:Conn_02x03_Odd_Even" 50 -200 50 H V C CNN
+F1 "Connector_Generic_Conn_02x03_Odd_Even" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -83,11 +83,11 @@ X Pin_6 6 300 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:C_Small
+# Device_C_Small
 #
-DEF Device:C_Small C 0 10 N N 1 F N
+DEF Device_C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "Device:C_Small" 10 -80 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -101,11 +101,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:LED_Small
+# Device_LED_Small
 #
-DEF Device:LED_Small D 0 10 N N 1 F N
+DEF Device_LED_Small D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
-F1 "Device:LED_Small" -175 -100 50 H V L CNN
+F1 "Device_LED_Small" -175 -100 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -124,11 +124,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:R_Small
+# Device_R_Small
 #
-DEF Device:R_Small R 0 10 N N 1 F N
+DEF Device_R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "Device:R_Small" 30 -40 50 H V L CNN
+F1 "Device_R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -141,11 +141,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Diode:BZX84Cxx
+# Diode_BZX84Cxx
 #
-DEF Diode:BZX84Cxx D 0 40 N N 1 F N
+DEF Diode_BZX84Cxx D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Diode:BZX84Cxx" 0 -100 50 H V C CNN
+F1 "Diode_BZX84Cxx" 0 -100 50 H V C CNN
 F2 "Diode_SMD:D_SOT-23_ANK" 0 -175 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -160,11 +160,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dk_Embedded-Microcontrollers:ATTINY84A-PU
+# dk_Embedded-Microcontrollers_ATTINY84A-PU
 #
-DEF dk_Embedded-Microcontrollers:ATTINY84A-PU U 0 40 Y Y 1 F N
+DEF dk_Embedded-Microcontrollers_ATTINY84A-PU U 0 40 Y Y 1 F N
 F0 "U" -250 500 60 H V L CNN
-F1 "dk_Embedded-Microcontrollers:ATTINY84A-PU" 250 450 60 V V R CNN
+F1 "dk_Embedded-Microcontrollers_ATTINY84A-PU" 250 450 60 V V R CNN
 F2 "digikey-footprints:DIP-14_W3mm" 200 200 60 H I L CNN
 F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/8183s.pdf" 200 300 60 H I L CNN
 F4 "ATTINY84A-PU-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -195,11 +195,11 @@ X PA4 9 -400 -300 150 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# dk_PMIC-Voltage-Regulators-Linear:L7805CV
+# dk_PMIC-Voltage-Regulators-Linear_L7805CV
 #
-DEF dk_PMIC-Voltage-Regulators-Linear:L7805CV U 0 20 Y Y 1 F N
+DEF dk_PMIC-Voltage-Regulators-Linear_L7805CV U 0 20 Y Y 1 F N
 F0 "U" 0 150 60 H V C CNN
-F1 "dk_PMIC-Voltage-Regulators-Linear:L7805CV" 0 250 60 H V C CNN
+F1 "dk_PMIC-Voltage-Regulators-Linear_L7805CV" 0 250 60 H V C CNN
 F2 "digikey-footprints:TO-220-3" 200 200 60 H I L CNN
 F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" 200 300 60 H I L CNN
 F4 "497-1443-5-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -219,11 +219,11 @@ X OUT 3 300 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# power:+12V
+# power_+12V
 #
-DEF power:+12V #PWR 0 0 Y Y 1 F P
+DEF power_+12V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+12V" 0 140 50 H V C CNN
+F1 "power_+12V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -234,11 +234,11 @@ X +12V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
